@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*hool jibton mn website css tricks 7atetlna l website taba3o 3ashin 
+  background ykoon centered, always use this bas 7ot background, 
+  so background is v. flexible*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px; /* edges become more circular
+  (This is initial button class taba3 bootstrap)*/
+  text-transform: uppercase;
+}
+.btn-xl{
+  padding: 1rem 2rem; /* 1rem on sides 2rem: top, buttom , hik sar akbar l button*/
+
+}
+.btn-primary{
+  background-color: #F05F44;
+  border-color: #F05F44 ;
+}
+.btn-primary:hover{
+  background-color: #ee4b08;
+  border-color:#ee4b08 ;
+  border-width: 4px;
+}
+.buffer{
+  height: 10rem;
+}
